@@ -164,8 +164,6 @@
   {:valid (validate-ws wordseq numseq)
    :errors (error-check wordseq)})
 
-(validate-and-errors )
-
 ;; use it
 (use-one-hotp-token)
 ;; => {:tok "6f0da3", :words ("gremlin" "asteroid" "reform")}
